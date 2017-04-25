@@ -1,6 +1,6 @@
 # npmtest-memcached
 
-#### test coverage for  [memcached (v2.2.2)](https://github.com/3rd-Eden/node-memcached#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-memcached.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memcached) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memcached.svg)](https://travis-ci.org/npmtest/node-npmtest-memcached)
+#### basic test coverage for  [memcached (v2.2.2)](https://github.com/3rd-Eden/node-memcached#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-memcached.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memcached) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memcached.svg)](https://travis-ci.org/npmtest/node-npmtest-memcached)
 
 #### A fully featured Memcached API client, supporting both single and clustered Memcached servers through consistent hashing and failover/failure. Memcached is rewrite of nMemcached, which will be deprecated in the near future.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-memcached/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-memcached/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-memcached/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-memcached/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memcached/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memcached/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-memcached/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-memcached/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memcached/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memcached/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-memcached/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-memcached/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
     "scripts": {
         "test": "mocha $(find test -name '*.test.js')"
     },
-    "version": "2.2.2"
+    "version": "2.2.2",
+    "bin": {}
 }
 ```
 
